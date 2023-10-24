@@ -1,0 +1,135 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato",sans-serif;
+    line-height: 1.8em;
+    color: #090000;
+}
+.pimage1{
+    background-image: url(Nature\ image.jpeg);
+    min-height: 100%;
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pimg2{
+    background-image: url(nature\ image2.jpeg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(nature\ image3.jpeg);
+    min-height: 400px;
+}
+.pimage1,.pimg2,.pimg3{
+    min-height: 100%;
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-size: 37px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+.textBg{
+    background-color: blueviolet;
+    color:aliceblue;
+    padding:20px;
+    backdrop-filter:initial;
+}
+.section{
+    padding:50px 80px;
+    text-align:center;
+
+}
+.section-light{
+    background-color: rgb(253, 249, 243);
+    color: rgb(1, 8, 14);
+}
+.section-dark{
+    background-color: rgb(245, 186, 98);
+    color: rgb(1, 8, 14);
+}
+.footer{
+    font-size:50px;
+    color:black;
+    position:relative;
+    left:100px;
+    text-align:center;
+    padding:20px;
+}
+ body::-webkit-scrollbar{
+    background-color: transparent;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(red,blue,green);
+    border-radius: 20px;
+}  
+@media screen and (max-width:600px){
+    html,body{
+        height: 100%;
+        margin: 0;
+        font-size: 8px;
+        font-weight: 200;
+        font-family: "Lato",sans-serif;
+        line-height: 1.8em;
+        color: #090000;
+    }
+    .pimg2{
+        min-height: 200px;
+    }
+    .pimg3{
+        min-height: 200px;
+    }
+    .ptext{
+        position: absolute;
+        top:25%;
+        width: 100%;
+        text-align: center;
+        color:black;
+        font-size: 16px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        
+    }
+    .textBg{
+        background-color: blueviolet;
+        color:aliceblue;
+        padding:10px;
+        backdrop-filter:initial;
+    }
+    .pimage1{
+        min-height: 50%;
+    }
+    .footer
+    {
+            font-size:25px;
+            color:black;
+            position:relative;
+            left:25px;
+            text-align:center;
+            padding:10px;
+    }
+    body::-webkit-scrollbar{
+        background-color: transparent;
+        
+    }
+    body::-webkit-scrollbar-thumb{
+        background: linear-gradient(red,blue,green);
+        border-radius: 10px;
+    }  
+
+    
+}
